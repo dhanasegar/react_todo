@@ -1,7 +1,8 @@
 "use client"
 import { useState, useEffect } from "react"
 import "./App.css"
-import TodoList from "./components/Todolist"
+import TodoList from "./components/TodoList"
+
 
 function App() {
   // Load todos from localStorage on initial render
