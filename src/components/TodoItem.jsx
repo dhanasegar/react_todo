@@ -39,7 +39,7 @@ function TodoItem({ todo, deleteTodo, toggleTodo, editTodo }) {
       ) : (
         <button
           onClick={() => setIsEditing(true)}
-          className="px-2 py-1 text-sm text-white bg-yellow-500 rounded hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+          className="px-2 py-1 text-sm text-white bg-cyan-500 rounded hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-500"
         >
           Edit
         </button>
